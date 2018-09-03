@@ -12,3 +12,5 @@ http://php.net/manual/en/function.shm-attach.php
 
 # V4 - PHP shared memory segment
 same as v3 - working example
+
+<img src="./example.png" />
