@@ -1,0 +1,47 @@
+body,html{
+    
+}
+
+#fireworks{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+
+#fireworks>div{
+    position: absolute;
+    width:100px;
+    height: 100px;
+}
+
+#fireworks>div>span{
+    position: absolute;
+    display: block;
+    opacity:0.5
+}
+
+#fireworks>div>span.s1{
+    top:-10px;
+    left:-10px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background: red;
+}
+
+#fireworks>div>span.s2{
+    top:20px;
+    left:10px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: green
+}
+
+#fireworks>div>span.s3{
+    top:50px;    
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background: blue
+}

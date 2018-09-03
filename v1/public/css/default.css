@@ -1,0 +1,215 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, 
+font, figure, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, 
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td, header{
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 12px;
+}
+header, nav, article, section, aside, time, video, button, figure, footer{
+    display: block;
+}
+
+
+html, body{
+    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+a {    
+    text-decoration: none;
+    -moz-outline-style: none;
+    outline: none;
+}
+
+
+a img{
+    border:none;
+}
+
+a:active {
+    outline: none;
+}
+
+a:focus {
+    -moz-outline-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.b{
+    font-weight: bold;
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.l {
+    float: left;
+}
+
+.r {
+    float:right;
+}
+
+.tr{
+    display:table-row;
+}
+
+.td{
+    display: table-cell;
+}
+
+.center{
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+.hiddenstrict{
+    display:none !important;
+}
+
+.nounderline{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.clear{
+    clear: both;
+    width: 100%;
+}
+
+.draggable{
+    cursor: move;
+}
+
+.w50p{
+    width:50%;
+}
+
+.corners_down{
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-radius-bottomright: 10px;
+    border-bottom-right-radius: 10px;
+
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-radius-bottomleft: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.shadow{
+    -moz-box-shadow: 1px 0px 40px #000;
+    -webkit-box-shadow: 1px 0px 40px #000;
+    box-shadow: 1px 0px 40px #000;    
+}
+
+.shadow2{
+    box-shadow-bottom: 0px 10px 40px #000000;
+    -moz-box-shadow: 0px 10px 40px #000000;
+    -webkit-box-shadow: 0px 10px 40px #000000;
+}
+
+#main{
+    margin:0px auto;
+}
+
+.curp{
+    cursor: pointer;
+}
+
+/* Gallery */
+.pagephotos_plus{
+    background: url("../images/layout/plus.png");
+    width:31px;
+    height: 31px;
+    display:block;
+    position: absolute;
+    cursor: pointer;
+    top:50%;
+    left:50%;
+    display: none;
+}
+
+.alert{
+    width:200px;
+    height: 100px;
+    border: 1px solid #FF0000;
+    padding: 10px;
+    position: fixed;
+    left: 50%;
+    margin-left: -100px;
+    top: 50%;
+    margin-top: -50px;
+    color:#000;
+    font-weight: bold;
+}
+
+.opacity{
+    opacity: .5;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; 
+    filter: alpha(opacity=50);					
+}
+
+.control-group{
+    width:100%;
+}
+
+label.valid {
+    width: 24px;
+    height: 24px;
+    background:url("../images/layout/valid.png") center center no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+}
+label.error {
+    color: red;
+    font-size: 10px;
+    margin: 2px 0px 0px 2px; 
+}
+
+/*
+.wrapper{
+    height: auto !important;
+    margin: 0 auto -100px;    
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+
+}
+.wrapper_box{
+    height: 118px;
+}
+*/
+
+/*
+@font-face {
+    font-family: 'KatarineStdMediumRegular';
+    src: url('../fonts/frutigernextpro-mediumcn.eot');
+    src: url('../fonts/frutigernextpro-mediumcn.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/frutigernextpro-mediumcn.woff') format('woff'),
+        url('../fonts/frutigernextpro-mediumcn.ttf') format('truetype'),
+        url('../fonts/frutigernextpro-mediumcn.svg#KatarineStdMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*/

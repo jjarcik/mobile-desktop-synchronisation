@@ -1,0 +1,56 @@
+html, body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;  
+}
+body{
+    text-align:center;
+    background: #ffffff; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #ffffff 0%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+h1{ 
+
+    font-size:50px;
+}
+
+h2{ 
+    font-size:30px;
+}
+
+#main{
+    width:700px;
+    border:5px solid #006600;
+    position: absolute;
+    top:50%;
+    margin-top: -200px;
+    left:50%;
+    margin-left: -300px;
+    padding: 10px;
+}
+
+#server{
+    position: absolute;    
+    bottom:0;
+    width:100%;
+    height: 50px;
+    border-top:1px dotted #006699;
+    overflow-y: scroll;
+    background: #000;
+    color:#66cc66
+}
+
+.bomba{
+    background:#006600;
+    width:50px;
+    height: 50px;
+    position: absolute;
+}
